@@ -1,0 +1,27 @@
+{
+  "name": "graph-shortest-path",
+  "version": "1.0.0",
+  "description": "In this building, the lift can go to any apartment. Find the optimal path for the lift, taking into account that the time needed to pass through an apartment varies.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack --watch",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dmitryt/graph-shortest-path.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dmitryt/graph-shortest-path/issues"
+  },
+  "homepage": "https://github.com/dmitryt/graph-shortest-path#readme",
+  "devDependencies": {
+    "clean-webpack-plugin": "^0.1.17",
+    "html-webpack-plugin": "^2.30.1",
+    "webpack": "^3.10.0"
+  }
+}
